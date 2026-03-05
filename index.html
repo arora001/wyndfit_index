@@ -49,7 +49,7 @@
         position: fixed;
         inset: 0;
         opacity: 0.18;
-        background-image: url("Background.png");
+        background-image: url("Background.jpg");
         background-size: cover;
         background-position: center;
         mix-blend-mode: lighten;
@@ -171,7 +171,7 @@
         width: 6px;
         height: 6px;
         border-radius: 999px;
-        background-color: #25d366; /* WhatsApp Green */
+        background-color: #25d366;
       }
 
       .footer {
@@ -185,12 +185,6 @@
         align-items: center;
         font-size: 0.76rem;
         color: var(--text-muted);
-      }
-
-      .socials {
-        display: flex;
-        align-items: center;
-        gap: 8px;
       }
 
       .social-links {
@@ -214,7 +208,6 @@
         .content {
           padding: 24px 20px 22px;
         }
-
         h1 {
           font-size: 1.6rem;
         }
@@ -243,9 +236,7 @@
 
           <div class="cta">
             <span class="cta-label">Join the community now</span>
-            
             <img src="image-removebg-preview.png" alt="WhatsApp QR Code" class="qr-code">
-
             <a
               href="https://chat.whatsapp.com/KliR3Ot2sDdGndz5E7MgGy?mode=gi_t"
               class="cta-button"
@@ -254,6 +245,13 @@
             >
               <span class="cta-dot"></span>
               <span>Join WhatsApp Group</span>
+            </a>
+          </div>
+
+          <div class="cta" style="margin-top: 32px; border-top: 1px solid rgba(255, 255, 255, 0.06); padding-top: 24px;">
+            <span class="cta-label">Contact us</span>
+            <a href="mailto:admin@wyndfit.com" class="cta-button">
+              <span>admin@wyndfit.com</span>
             </a>
           </div>
         </section>
@@ -272,9 +270,7 @@
     </main>
 
     <script>
-      document.getElementById("year").textContent =
-        new Date().getFullYear().toString();
+      document.getElementById("year").textContent = new Date().getFullYear().toString();
     </script>
   </body>
 </html>
-
